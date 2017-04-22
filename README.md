@@ -35,13 +35,9 @@
 ```json
 
 {
-    "author": {
-        "name": "Eddy Verbruggen",
-        "url": "https://github.com/EddyVerbruggen"
-    },
-    "bugs": {
-        "url": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin/issues"
-    },
+    "name": "cordova-plugin-x-toast",
+    "version": "2.6.0",
+    "description": "This plugin allows you to show a Toast. A Toast is a little non intrusive buttonless popup which automatically disappears.",
     "cordova": {
         "id": "cordova-plugin-x-toast",
         "platforms": [
@@ -52,22 +48,10 @@
             "blackberry10"
         ]
     },
-    "dependencies": {},
-    "description": "This plugin allows you to show a Toast. A Toast is a little non intrusive buttonless popup which automatically disappears.",
-    "devDependencies": {},
-    "directories": {},
-    "dist": {
-        "shasum": "4778becb61e36c8951091a075850c28ded8f56a5",
-        "tarball": "https://registry.npmjs.org/cordova-plugin-x-toast/-/cordova-plugin-x-toast-2.6.0.tgz"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git"
     },
-    "engines": [
-        {
-            "name": "cordova",
-            "version": ">=3.0.0"
-        }
-    ],
-    "gitHead": "04b4cf78945d4cbec7efc849292ea1a6d44fe7be",
-    "homepage": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin#readme",
     "keywords": [
         "Toast",
         "Notification",
@@ -80,20 +64,19 @@
         "cordova-windows",
         "cordova-blackberry10"
     ],
-    "license": "MIT",
-    "maintainers": [
+    "engines": [
         {
-            "name": "eddyverbruggen"
+            "name": "cordova",
+            "version": ">=3.0.0"
         }
     ],
-    "name": "cordova-plugin-x-toast",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git"
+    "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin/issues"
     },
-    "scripts": {},
-    "version": "2.6.0"
+    "homepage": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin#readme",
+    "bin": {}
 }
 ```
 
